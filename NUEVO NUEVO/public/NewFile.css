@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+h1 {
+	font-family: 'Hanalei', cursive;
+}
+
+h2 {
+	padding: 0.5em;
+	border: 5px red double;
+	background-color: yellow;
+	color: blue;
+}
+
+body {
+	text-align: center;
+}
+
+caption {
+	background-color: yellow;
+	color: blue;
+	font-weight: bold;
+}
+
+table {
+	width: 500px;
+	text-align: center;
+	border: 1px black solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+table td {
+	border: 1px black solid;
+}
+table th {
+	border: 1px black solid;
+}
+
+.vacio {
+	border: none;
+}
+
+.lineatabla1y2 {
+	height: 20px;
+	border: 1px black solid
+}
+
+.tab2 caption {
+	caption-side: bottom;
+}
+
+.tab2 tbody {
+	border: 3px red dotted;
+}
+.tab2 tbody td{
+	border: 1px black solid;
+}
+
+.tab2 {
+	border-collapse: collapse;
+}
+
+.tab2 {
+	width: 70%;
+}
+
+.lineatab2 {
+	width: 70%;
+}
